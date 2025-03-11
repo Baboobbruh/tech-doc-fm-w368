@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    font-family: Orbitron, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: White;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    background-color: #FCEE0A;
+    color: black;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    padding-bottom: 300px;
+  }
+  
+  .button {
+    background-color: black;
+    clip-path: polygon(5% 0, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 25%);
+    width: 90%;
+    margin: 15px auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+      padding: 5px;
+  }
+  
+  .button:hover {
+    transform: translateX(10px);
+    background-color: #FCEE0A;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .button:hover .nav-link {
+    color: black;
+  }
+  
+  .cyberpunk_image {
+    margin-top: -25px;
+  }
+  
+  header {
+    text-align: left;
+    font-size: 2.1em;
+    font-weight: 700;
+    height: 100px;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  span {
+    color: transparent;
+  }
+  
+  .nav-link {
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px #52BEDC;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FCEE0A;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .biochip {
+    width: 120%;
+    margin-left: -30px;
+    margin-top: 60px;
+  }
+  
+  #main-doc {
+    font-family: Rajdhani, sans-serif;
+    position: absolute;
+    margin-left: 370px;
+    margin-right: 100px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  li {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .first-note {
+    margin-top: -45px;
+  }
+  
+  .second-note {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    margin: 25px auto;
+    width: 50%;
+    background-color: #F75049;
+    border-color: #F75049;
+    height: 2.5px;
+    box-shadow: 2px 2px 15px 2px #F75049;
+  }
+  
+  code {
+    font-family: Rajdhani, sans-serif;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  
